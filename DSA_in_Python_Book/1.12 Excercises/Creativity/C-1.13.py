@@ -1,4 +1,4 @@
-def reverese(li: list):
+def reverse(li: list):
     start = 0
     end = len(li) - 1
 
@@ -13,5 +13,5 @@ def reverese(li: list):
 
 
 if __name__ == "__main__":
-    new_list = reverese([1, 2, 3, 4, 5, 6])
+    new_list = reverse([1, 2, 3, 4, 5, 6])
     print(new_list)
